@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* IDs */
+
+/* Classes */
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: gold;
+  padding: 15px 5px;
+}
+
+.logo {
+  margin-left: 10px;
+}
+/* Generics */
+
+nav ul {
+  display: flex;
+  gap: 2em;
+  margin-right: 10px;
+  list-style: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:visited {
+  color: black;
+  text-decoration: solid;
+}
+
+a:hover {
+  width: 100px;
+  padding: 7px 10px;
+  color: white;
+  background-color: rgb(18, 58, 216);
+  border-radius: 15px;
+  transition: background-color 1.5s;
+}
