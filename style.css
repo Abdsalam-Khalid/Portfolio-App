@@ -32,14 +32,9 @@ a {
   color: blue;
 }
 
-a:visited {
-  color: black;
-  text-decoration: solid;
-}
-
 a:hover {
   width: 100px;
-  padding: 7px 10px;
+  padding: 7px 20px;
   color: white;
   background-color: rgb(18, 58, 216);
   border-radius: 15px;
